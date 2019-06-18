@@ -131,7 +131,21 @@ print("Test bottom up change method")
 print("Mininum of coins for amount",n,"=",f,"coins, time:",(t1-t0),"secs")
 
 
+""" 
+**** Sample Output ****
+This test harness computes the mininum number of coins need
+for a given amount using coins: 10, 6, 1 for the
+three above methods along with their run times.
+Suggestion: please start small.
 
+Enter a non zero amount:57
+Test naive make change method
+Mininum of coins for amount 57 = 7 coins, time: 6.475013017654419 secs
+Test Cache change method
+Mininum of coins for amount 57 = 7 coins, time: 6.604194641113281e-05 secs
+Test bottom up change method
+Mininum of coins for amount 57 = 7 coins, time: 4.38690185546875e-05 secs
+"""
 
 
 
